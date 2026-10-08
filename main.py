@@ -73,7 +73,7 @@ def main(cfg: DictConfig):
             early_stopping_callback,
             lr_logger,
             model_summary_callback,
-            pl.callbacks.RichProgressBar(),
+            pl.callbacks.TQDMProgressBar(refresh_rate=1),
             # lr_finder,
         ],
     )

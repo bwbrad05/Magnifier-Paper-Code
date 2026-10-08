@@ -1,3 +1,6 @@
+# NOTE: install torch/torchvision from the CUDA wheel index, e.g.:
+#   pip install torch==2.0.0 torchvision==0.15.0 --index-url https://download.pytorch.org/whl/cu118
+# then: pip install -r requirements.txt   (use Python 3.10)
 comet_ml==3.32.4
 h5py==3.8.0
 hdf5plugin==4.1.1
@@ -9,9 +12,12 @@ polars
 xarray
 rioxarray
 pytorch-lightning==2.0.0
-scikit-image==0.18.3
-pytorch==2.0.0
+scikit-image==0.19.3
+torch==2.0.0
 torchmetrics==0.11.4
 torchvision==0.15.0
 tqdm==4.64.1
 transformers==4.27.2
+segmentation-models-pytorch==0.3.3
+rich==12.6.0
+setuptools<81
