@@ -1,0 +1,11 @@
+---
+name: indonesia
+
+# Root is data/indonesia (see IndonesiaDataset); expects:
+#   data/indonesia/splits.parquet  (columns: files, fold)
+#   data/indonesia/images/<files>.tif
+#   data/indonesia/masks/<files>_mask.tif
+test_set: ???
+
+batch_size: 16
+num_workers: 4

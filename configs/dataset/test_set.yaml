@@ -1,0 +1,19 @@
+seed: 42
+
+pre_available: True
+mode: prepost
+root: "data/positives.hdf5"
+
+train_set: null
+test_set: 5
+
+validity_filter: ["y"]
+comments_filter: []
+
+batch_size: 16
+num_workers: 4
+parallel_workers: 8
+
+patch_size: 512
+keep_burned_only: true
+debug: false

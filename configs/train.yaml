@@ -1,0 +1,13 @@
+---
+name: Magnifier
+model_name: &model magnifier_deeplab
+
+defaults:
+  - _self_
+  - model: *model
+  - trainer: default_gpu
+  - dataset: europe
+  - logger: comet
+
+mode: train
+ckpt_path: null

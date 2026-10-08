@@ -1,0 +1,20 @@
+name: california
+seed: 42
+
+pre_available: False
+mode: post
+root: "data/512x512.hdf5"
+
+train_set: null
+test_set: ???
+
+validity_filter: ["y"]
+comments_filter: []
+
+batch_size: 16
+num_workers: 4
+parallel_workers: 8
+
+patch_size: 512
+keep_burned_only: true
+debug: false

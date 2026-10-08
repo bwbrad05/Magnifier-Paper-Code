@@ -1,0 +1,16 @@
+name: europe
+seed: 42
+
+pre_available: False
+mode: post
+root: "data/europe.hdf5"
+
+train_set: null
+test_set: ???
+
+batch_size: 16
+num_workers: 4
+
+patch_size: 512
+keep_burned_only: true
+debug: false

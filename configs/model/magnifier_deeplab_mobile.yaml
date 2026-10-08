@@ -1,0 +1,9 @@
+---
+_target_: neural_net.MagnifierNet
+model: deeplabv3plus
+num_classes: 2
+channels: 12
+big_patch_size: 512
+small_patch_size: 64
+encoder_name: "timm-mobilenetv3_small_100"
+learning_rate: 0.001

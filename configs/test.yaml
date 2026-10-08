@@ -1,0 +1,12 @@
+---
+name: Magnifier
+
+defaults:
+  - _self_
+  - model: segformerb1
+  - trainer: default_gpu
+  - dataset: california
+  - logger: comet
+
+mode: test
+ckpt_path: null
